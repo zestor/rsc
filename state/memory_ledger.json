@@ -823,6 +823,22 @@
       "stage": "consult",
       "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
       "timestamp": "2026-06-23T11:03:42.712776Z"
+    },
+    {
+      "content": "Malformed evaluator response: ```json\n{\n  \"passed\": true,\n  \"score\": 1.0,\n  \"per_criterion\": {\n    \"complete\": true,\n    \"correct\": true\n  },\n  \"critique\": \"\",\n  \"root_causes\": \"\",\n  \"suggested_fix\": \"\"\n}\n```",
+      "entry_id": "2d936536-0ab6-4381-abbf-40f2469de11d",
+      "session_id": "710b906f-7142-44b7-9f19-d7def9d384de",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-23T11:13:58.417238Z"
+    },
+    {
+      "content": "Evaluator returned non-JSON output.",
+      "entry_id": "cdb582b3-e36d-43d1-9645-f6a1f2cbb862",
+      "session_id": "710b906f-7142-44b7-9f19-d7def9d384de",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-23T11:13:58.425512Z"
     }
   ],
   "schema_version": "1.0"
