@@ -1,0 +1,12 @@
+{
+  "description": "Planner prompt includes injected state and exact user task/rubric template.",
+  "expected": {
+    "system_prompt_contains": [
+      "## BEHAVIORAL CONSTITUTION",
+      "## CONSTRAINTS",
+      "## SKILL: default",
+      "You are the PLANNER agent"
+    ],
+    "user_message_exact": "TASK:\nDo the work\n\nRUBRIC:\n1. [complete] Finish the task"
+  }
+}

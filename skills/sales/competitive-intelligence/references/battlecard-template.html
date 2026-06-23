@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battlecard: [Your Company] vs Competitors</title>
+    <style>
+      :root {
+        --bg-primary: #0a0d14;
+        --bg-elevated: #0f131c;
+        --bg-surface: #161b28;
+        --bg-hover: #1e2536;
+        --text-primary: #ffffff;
+        --text-secondary: rgba(255, 255, 255, 0.7);
+        --text-muted: rgba(255, 255, 255, 0.5);
+        --accent: #3b82f6;
+        --accent-hover: #2563eb;
+        --you-win: #10b981;
+        --they-win: #ef4444;
+        --tie: #f59e0b;
+        --radius: 12px;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        background: var(--bg-primary);
+        color: var(--text-primary);
+        line-height: 1.6;
+      }
+
+      header {
+        padding: 2rem;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      header h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+      header p {
+        color: var(--text-muted);
+        font-size: 0.875rem;
+      }
+
+      .tabs {
+        display: flex;
+        gap: 0.5rem;
+        padding: 1rem 2rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        flex-wrap: wrap;
+      }
+      .tab {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        color: var(--text-secondary);
+        padding: 0.5rem 1rem;
+        border-radius: var(--radius);
+        cursor: pointer;
+        font-size: 0.875rem;
+        transition: all 200ms;
+      }
+      .tab:hover {
+        background: var(--bg-hover);
+        color: var(--text-primary);
+      }
+      .tab.active {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: white;
+      }
+
+      .tab-content {
+        display: none;
+        padding: 2rem;
+      }
+      .tab-content.active {
+        display: block;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+        margin: 1.5rem 0 1rem;
+        color: var(--text-primary);
+      }
+      h3 {
+        font-size: 1rem;
+        margin: 1rem 0 0.5rem;
+        color: var(--text-secondary);
+      }
+
+      .comparison-matrix {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1rem 0;
+      }
+      .comparison-matrix th,
+      .comparison-matrix td {
+        padding: 0.75rem 1rem;
+        text-align: left;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        font-size: 0.875rem;
+      }
+      .comparison-matrix th {
+        color: var(--text-muted);
+        font-weight: 600;
+        position: sticky;
+        top: 0;
+        background: var(--bg-primary);
+      }
+      .comparison-matrix td {
+        color: var(--text-secondary);
+      }
+
+      .win {
+        color: var(--you-win);
+        font-weight: 600;
+      }
+      .lose {
+        color: var(--they-win);
+        font-weight: 600;
+      }
+      .neutral {
+        color: var(--tie);
+        font-weight: 600;
+      }
+
+      .battlecard {
+        background: var(--bg-surface);
+        border-radius: var(--radius);
+        padding: 1.5rem;
+        margin: 1rem 0;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .battlecard:hover {
+        border-color: rgba(255, 255, 255, 0.2);
+      }
+
+      .section {
+        margin: 1.5rem 0;
+      }
+      .section-title {
+        color: var(--text-muted);
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 0.5rem;
+      }
+
+      .talk-track {
+        background: var(--bg-elevated);
+        padding: 1rem;
+        border-radius: 8px;
+        margin: 0.5rem 0;
+        border-left: 3px solid var(--accent);
+      }
+      .objection {
+        background: var(--bg-elevated);
+        padding: 1rem;
+        border-radius: 8px;
+        margin: 0.5rem 0;
+      }
+      .objection strong {
+        color: var(--they-win);
+      }
+      .objection p {
+        color: var(--you-win);
+        margin-top: 0.5rem;
+      }
+
+      .landmine {
+        background: var(--bg-elevated);
+        padding: 0.75rem 1rem;
+        border-radius: 8px;
+        margin: 0.25rem 0;
+        color: var(--text-secondary);
+      }
+      .landmine::before {
+        content: '💣 ';
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>[Your Company] Competitive Battlecard</h1>
+      <p>Generated: [Date] | Competitors: [List]</p>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab active" onclick="showTab('matrix')">Comparison Matrix</button>
+      <!-- Add one button per competitor -->
+    </nav>
+
+    <section id="matrix" class="tab-content active">
+      <h2>Head-to-Head Comparison</h2>
+      <table class="comparison-matrix">
+        <thead>
+          <tr>
+            <th>Capability</th>
+            <th>[Your Company]</th>
+            <!-- Add competitor columns -->
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Feature rows with .win / .lose / .neutral classes -->
+        </tbody>
+      </table>
+
+      <h2>Quick Win/Loss Guide</h2>
+      <!-- Per-competitor: when you win, when you lose -->
+    </section>
+
+    <!-- Clone this section per competitor -->
+    <section id="competitor-1" class="tab-content">
+      <div class="battlecard">
+        <div class="section">
+          <div class="section-title">Company Profile</div>
+          <!-- Profile details -->
+        </div>
+        <div class="section">
+          <div class="section-title">Where They Win</div>
+          <!-- Their advantages -->
+        </div>
+        <div class="section">
+          <div class="section-title">Where You Win</div>
+          <!-- Your advantages -->
+        </div>
+        <div class="section">
+          <div class="section-title">Talk Tracks</div>
+          <!-- Scenario-based positioning -->
+        </div>
+        <div class="section">
+          <div class="section-title">Objection Handling</div>
+          <!-- Objection/response pairs -->
+        </div>
+        <div class="section">
+          <div class="section-title">Landmine Questions</div>
+          <!-- Questions that expose weaknesses -->
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function showTab(id) {
+        document.querySelectorAll('.tab-content').forEach((el) => el.classList.remove('active'));
+        document.querySelectorAll('.tab').forEach((el) => el.classList.remove('active'));
+        document.getElementById(id).classList.add('active');
+        event.target.classList.add('active');
+      }
+    </script>
+  </body>
+</html>

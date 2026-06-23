@@ -1,0 +1,4 @@
+owners:
+  - pattern: '**'
+    area: memories
+    review: required

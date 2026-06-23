@@ -1,0 +1,9 @@
+{
+  "include": ["rsc", "tests", "examples"],
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "extraPaths": ["."]
+    }
+  ]
+}

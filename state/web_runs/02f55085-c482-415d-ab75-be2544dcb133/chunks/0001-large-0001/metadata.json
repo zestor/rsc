@@ -1,0 +1,21 @@
+{
+  "chunk": {
+    "char_count": 9,
+    "chunk_id": "large-0001",
+    "filename": "large.md",
+    "index": 1,
+    "markdown": {
+      "chars": 9,
+      "line_count": 1,
+      "preview": "# Section",
+      "sha256": "1b89a366858c33b423e0ea78d59f35f7894175bd594b9e76b195b69ffaf45526",
+      "text": "# Section"
+    },
+    "total": 6,
+    "word_count": 2
+  },
+  "result_chars": 8,
+  "score": 1.0,
+  "status": "passed",
+  "turns_used": 1
+}

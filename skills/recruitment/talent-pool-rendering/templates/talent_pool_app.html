@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ROLE_LABEL}} — Talent Pool preview</title>
+    <link rel="stylesheet" href="tokens.css" />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="topbar-left">
+          <h1 class="role-label">{{ROLE_LABEL}}</h1>
+          <p class="app-subtitle">{{ROLE_SUBTITLE}}</p>
+        </div>
+        <div class="topbar-right">
+          <button type="button" class="theme-toggle" aria-pressed="false" aria-label="Toggle dark theme">
+            <span class="theme-toggle-icon" aria-hidden="true"></span>
+            <span class="theme-toggle-label">Dark</span>
+          </button>
+          <a class="section-jump" href="#leaderboard">Candidates</a>
+          <a class="section-jump" href="#methodology">Methodology</a>
+          <a class="section-jump" href="#workflow-data">Workflow data</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="tier-summary">{{TIER_SUMMARY}}</section>
+
+      <section id="leaderboard" class="leaderboard">
+        <h2>Leaderboard</h2>
+        <ol class="candidate-list">{{CANDIDATE_ROWS}}</ol>
+      </section>
+
+      {{WORKFLOW_SECTION}}
+    </main>
+
+    <script id="talent-pool-bundle" type="application/json">{{BUNDLE_JSON}}</script>
+    <script src="app.js"></script>
+  </body>
+</html>

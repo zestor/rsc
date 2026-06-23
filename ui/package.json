@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "docx": "^9.7.1",
+    "html2pdf.js": "^0.14.0",
+    "jspdf": "^4.2.1",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-markdown": "latest",
+    "remark-gfm": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}

@@ -1,0 +1,52 @@
+competitor:
+  name: ''
+  website: ''
+  profile:
+    founded: ''
+    funding: ''
+    employees: ''
+    target_market: ''
+    pricing_model: ''
+    market_position: ''
+
+  what_they_sell: ''
+  their_positioning: ''
+
+  recent_releases:
+    - date: ''
+      release: ''
+      impact: ''
+
+  where_they_win:
+    - area: ''
+      advantage: ''
+      how_to_handle: ''
+
+  where_you_win:
+    - area: ''
+      advantage: ''
+      proof_point: ''
+
+  pricing:
+    model: ''
+    entry_price: ''
+    enterprise: ''
+    hidden_costs: ''
+    talk_track: ''
+
+  talk_tracks:
+    early_mention: ''
+    displacement: ''
+    late_addition: ''
+
+  objections:
+    - objection: ''
+      response: ''
+
+  landmines:
+    - ''
+
+  win_loss:
+    win_rate: ''
+    common_win_factors: ''
+    common_loss_factors: ''

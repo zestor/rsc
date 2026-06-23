@@ -1,0 +1,51 @@
+# Hero Query Pool
+
+Entries are interleaved across 7 categories (tagged in brackets).
+
+---
+
+- [Research] Build a watchlist of the 20 largest public AI companies with daily monitoring — SEC filings, job trends, GitHub activity — and flag anomalies
+- [Documents] Build a 20-page corporate training deck on NDAs, purchase terms, and JDAs — include boilerplate, counterparty redlines, and professional slide design
+- [Websites] Build an interactive bubble chart of every S&P 500 company — revenue vs. profit, sized by market cap, colored by 12-month price change — deployed as a website
+- [Scheduling] Every hour until end of day tomorrow, send me the Bitcoin price and keep a live hosted chart updated at a single URL
+- [Media] Create a GIF of Nvidia's stock price over the last 10 years
+- [Research] Analyze Alphabet's last four earnings transcripts for TPU mentions — track frequency, narrative shifts, and predict next quarter's count
+- [Financial] Build a three-statement financial model for Amazon in Excel from SEC filings — 5 years historical, 5 years projected, with segment revenue bridge
+- [Documents] Generate lecture slides for a first college-level differential equations class with properly formatted equations and visuals
+- [Scheduling] Every hour, scan for new SEC S-1 filings indicating upcoming IPOs — only notify me of new ones
+- [Media] Generate concept art of winter sports in a vintage 1960s illustration style
+- [Research] Conduct a literature review of deep research agent benchmarks — characterize evaluation methods, compare key players, and propose improvements in a PDF with clickable citations
+- [Websites] Build a financial data terminal UI with peer comps and latest news
+- [Media] Create a 3-minute bedtime story about Chinese New Year for a 3-4 year old — with a narrated audio file in a female British accent
+- [Research] Identify unconventional data signals for NVDA that traditional equity analysts overlook — and back-test their historical correlation with price movement
+- [Websites] Build a sleek enterprise dashboard tracking all research, findings, and financials on the GLP-1 semaglutide market
+- [Multi-Capability] Build me a personal website from everything you can find about me online — styled like a vintage arcade with CRT glow, pixel art, and game-level progression
+- [Research] Search exhaustively for the best auto insurance rates in California for a single male in his early thirties — estimate quotes directly on provider websites
+- [Websites] Aggregate all protein folding research papers across all companies — monitor for new papers, feature most-cited, and provide summaries
+- [Scheduling] Every day next week, email me pre-earnings and post-earnings briefs for all relevant software companies — results vs. consensus, key takeaways, and transcript quotes
+- [Media] Create a rolling bar chart video of the top 10 billionaires' net worth from 2015 to today — monthly updates with photos, colors, and a time counter
+- [Multi-Capability] Create an interactive web app with daily gym exercises from Huberman's protocol — source demo videos, track workouts, and build progress reports
+- [Research] Estimate the earned media value of every major Super Bowl commercial this year — model the long-tail financial effect and compare on an interactive webpage
+- [Websites] Build an interactive horizontal-scrolling Space Race timeline with branches by country and images throughout
+- [Media] Generate a 3D-printable file of a logo and host a web viewer to render and inspect it before printing
+- [Multi-Capability] Create a rhythm-based keyboard game where players drop in their own MP3s and the game generates beat maps on the fly
+- [Websites] Build a website of the top 50 public companies by market cap with standard financial data plus niche operational metrics unique to each business
+- [Multi-Capability] Build a database of every SF summer camp for ages 4-8 with dates, prices, and reviews — add registration deadlines to my calendar and provide a map
+- [Research] Pull the current OpenAI privacy policy and the pre-October 2025 version from the Wayback Machine — redline the two and summarize findings
+- [Websites] Design prototypes for a personal finance app with net worth, spending, savings tracking, and natural language queries
+- [Multi-Capability] Search my network and create a targeted plan to secure a meeting with a VC partner — map direct and one-hop connections
+- [Websites] Build a polished ASCII canvas editor in Rust compiled to WASM and deployed on the web
+- [Websites] Build an interactive Big Mac Index choropleth map with year slider, hover stats, and currency valuation trends
+- [Multi-Capability] Every month, sift through NASA WISE infrared survey data for novel findings about the universe — maintain a living research website
+- [Websites] Build an interactive rent-vs-buy calculator that pulls local data and runs Monte Carlo simulations
+- [Websites] Build a 3D globe of every airline route color-coded by alliance — searchable by airport with stats sidebar
+- [Documents] Build a professional Excel workbook analyzing 50 years of US federal budget data by agency and function — with real-dollar trends, stacked area charts, and growth rates
+- [Websites] Build a 3D globe of the world's submarine cables — color-coded by decade, with a timeline slider and single-point-of-failure analysis
+- [Multi-Capability] Create a 12-page children's picture book about a curious robot — with watercolor illustrations, consistent character design, and narrated audio
+- [Websites] Build a polling website for a company all-hands — ranked choice, anonymous Q&A, auto-refreshing results, no login required
+- [Documents] Create a visually stunning 15-slide quantum computing presentation for a non-technical executive audience — with analogies, infographics, and investment landscape
+- [Websites] Ingest 300K+ foods from the USDA dataset and build a mobile-first meal planning app with nutrition dashboard, grocery lists, and ingredient swaps
+- [Websites] Build an interactive choropleth of every US presidential election from 1789 to 2024 — with county-level zoom, animated mode, and swing state highlights
+- [Research] Analyze the second-order effects of AI-generated code on public equities — which companies face unexpected EPS surprises from this mega-trend?
+- [Multi-Capability] Build a comprehensive guest dossier for a podcast interview with Dario Amodei — bio, career timeline, key statements, recent activity, and 15 unique questions
+- [Multi-Capability] Research the 10 most pivotal moments in startup history — write and narrate a 5-minute podcast episode for each, build an RSS feed, and deploy a landing page

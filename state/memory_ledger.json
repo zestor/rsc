@@ -1,0 +1,829 @@
+{
+  "entries": [
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.",
+      "entry_id": "6f598748-00c3-4456-b41c-cd7e1bd796cd",
+      "session_id": "session",
+      "stage": "distill",
+      "task_hint": "Mode: answer the question directly and clearly.\n\n# User Question\nIn one short pa",
+      "timestamp": "2026-06-21T00:09:26.738498Z"
+    },
+    {
+      "content": "For technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.",
+      "entry_id": "5ffbdbcb-ecee-4858-988b-87b0b1edba4d",
+      "session_id": "session",
+      "stage": "distill",
+      "task_hint": "Mode: answer the question directly and clearly.\n\n# User Question\nIn one short pa",
+      "timestamp": "2026-06-21T00:09:26.741914Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.",
+      "entry_id": "55b7a7bc-6f6d-49f3-8e94-6eb2f0edbc54",
+      "session_id": "094a33e4-af05-4ed9-b1cd-d2e4c5027146",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T12:07:13.806432Z"
+    },
+    {
+      "content": "",
+      "entry_id": "9ecb2497-4acc-41fc-aaca-61c95ec79ab6",
+      "session_id": "094a33e4-af05-4ed9-b1cd-d2e4c5027146",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T12:08:24.824365Z"
+    },
+    {
+      "content": "",
+      "entry_id": "e06ca944-db0e-4561-8496-7abad92a3265",
+      "session_id": "094a33e4-af05-4ed9-b1cd-d2e4c5027146",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T12:08:24.827121Z"
+    },
+    {
+      "content": "",
+      "entry_id": "62cb0eb1-1ebb-476b-87cf-e556b30855ed",
+      "session_id": "094a33e4-af05-4ed9-b1cd-d2e4c5027146",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T12:10:20.064664Z"
+    },
+    {
+      "content": "N/A - answer meets all criteria",
+      "entry_id": "59db2669-9852-4e84-9354-d70a6ebce1aa",
+      "session_id": "094a33e4-af05-4ed9-b1cd-d2e4c5027146",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T12:10:20.068350Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.",
+      "entry_id": "20a6be34-628c-4da7-afcc-97f1a3306815",
+      "session_id": "02e9752e-0a03-4653-bc12-94a882cbcb97",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T12:21:37.319148Z"
+    },
+    {
+      "content": "",
+      "entry_id": "4be1bfed-134e-456e-970e-c065fca0a4fd",
+      "session_id": "02e9752e-0a03-4653-bc12-94a882cbcb97",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T12:24:04.850646Z"
+    },
+    {
+      "content": "",
+      "entry_id": "7679a363-5430-4d57-8401-5069aa7d706d",
+      "session_id": "02e9752e-0a03-4653-bc12-94a882cbcb97",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T12:24:04.854204Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.",
+      "entry_id": "ba37b5d4-04bf-4949-8c76-14e79d9ec58c",
+      "session_id": "planning",
+      "stage": "consult",
+      "task_hint": "Mode: planning.\n\n# Original User Request\nexplain non-human intelligence modifica",
+      "timestamp": "2026-06-21T13:17:30.031228Z"
+    },
+    {
+      "content": "The submitted output fails to satisfy the requested task. The task explicitly required breaking the request into 5-15 concrete, actionable sub-tasks using a numbered list under a '## Steps' heading, with each step being a single sentence describing one research or analysis task. The submitted output includes 15 numbered items under '## Steps', but each item is a complex multi-clause paragraph rather than a single sentence. Additionally, the output includes extraneous sections ('## Approach', '## Risks', '## Success Definition') not requested by the task, and the steps themselves contain extensive explanatory commentary, bolded headers, and multiple clauses that violate the single-sentence constraint. Because the steps are not single sentences, the output does not fully satisfy the requested task. The output is logically consistent and grounded, but the format violation means it does not meet the task requirements.",
+      "entry_id": "2ebd91d7-bb42-424d-8882-557dae64c07d",
+      "session_id": "planning",
+      "stage": "fail",
+      "task_hint": "Mode: planning.\n\n# Original User Request\nexplain non-human intelligence modifica",
+      "timestamp": "2026-06-21T13:20:05.419951Z"
+    },
+    {
+      "content": "The output treats the request as a planning document with explanatory context rather than strictly adhering to the format constraint of single-sentence sub-tasks. The inclusion of '## Approach', '## Risks', and '## Success Definition' sections indicates a misunderstanding of the required output format. The steps themselves are written as detailed paragraphs with multiple clauses and bolded lead-ins, violating the 'single sentence' requirement.",
+      "entry_id": "f362088c-5c5b-4182-ba16-edec3da88327",
+      "session_id": "planning",
+      "stage": "investigate",
+      "task_hint": "Mode: planning.\n\n# Original User Request\nexplain non-human intelligence modifica",
+      "timestamp": "2026-06-21T13:20:05.424525Z"
+    },
+    {
+      "content": "When a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.",
+      "entry_id": "f40c5d04-c1d4-41e1-b9e1-a8e008bcec05",
+      "session_id": "session",
+      "stage": "distill",
+      "task_hint": "Mode: planning.\n\n# Original User Request\nexplain non-human intelligence modifica",
+      "timestamp": "2026-06-21T13:24:22.662791Z"
+    },
+    {
+      "content": "For planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.",
+      "entry_id": "64000b68-d08d-45c0-a02e-e69229d120f6",
+      "session_id": "session",
+      "stage": "distill",
+      "task_hint": "Mode: planning.\n\n# Original User Request\nexplain non-human intelligence modifica",
+      "timestamp": "2026-06-21T13:24:22.667300Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.",
+      "entry_id": "f682f6d9-2483-416e-a887-6aa0558c04b4",
+      "session_id": "task-task-1",
+      "stage": "consult",
+      "task_hint": "Mode: research.\n\n# Original User Request\nexplain non-human intelligence modifica",
+      "timestamp": "2026-06-21T13:25:01.289755Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.",
+      "entry_id": "47564571-bbf6-405a-bb52-4c4075caff3d",
+      "session_id": "0954f4c1-2952-479c-ae15-f744fe492903",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T13:44:47.212678Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.",
+      "entry_id": "e707ad86-5e35-43c2-862e-2a9826a59cfe",
+      "session_id": "348cd278-cde6-4c20-8de3-da0f7a34f126",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T13:56:44.747562Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.",
+      "entry_id": "0409f475-e268-4e1f-9f04-ce97de7b6f0b",
+      "session_id": "5b3ace11-6bab-47cb-869f-809d2c02cbab",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T13:57:52.905753Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.",
+      "entry_id": "f2d95e73-2238-4a31-8d7a-1848f88dbf9b",
+      "session_id": "261e1301-0063-46d1-8372-cff716a8d960",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T14:59:39.591969Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.",
+      "entry_id": "f0d948c6-a9b8-48f0-9f7f-001888f0c2c3",
+      "session_id": "e89c6093-1934-486c-8fca-3dc727eb4230",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T15:11:51.508865Z"
+    },
+    {
+      "content": "Malformed evaluator response: ```json\n{\n  \"passed\": true,\n  \"score\": 1.0,\n  \"per_criterion\": {\n    \"complete\": true,\n    \"correct\": true\n  },\n  \"critique\": \"\",\n  \"root_causes\": \"\",\n  \"suggested_fix\": \"\"\n}\n```",
+      "entry_id": "5df2e323-ba77-4b1f-a2a6-bdaec86092fe",
+      "session_id": "e89c6093-1934-486c-8fca-3dc727eb4230",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T15:19:23.309859Z"
+    },
+    {
+      "content": "Evaluator returned non-JSON output.",
+      "entry_id": "28ef68f8-4531-4dfe-9f42-0fe526953781",
+      "session_id": "e89c6093-1934-486c-8fca-3dc727eb4230",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T15:19:23.314611Z"
+    },
+    {
+      "content": "Malformed evaluator response: ```json\n{\n  \"passed\": true,\n  \"score\": 1.0,\n  \"per_criterion\": {\n    \"complete\": true,\n    \"correct\": true\n  },\n  \"critique\": \"\",\n  \"root_causes\": \"\",\n  \"suggested_fix\": \"\"\n}\n```",
+      "entry_id": "b72f25a8-d211-466e-969f-9536b0bb1a46",
+      "session_id": "e89c6093-1934-486c-8fca-3dc727eb4230",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T15:28:47.045365Z"
+    },
+    {
+      "content": "Evaluator returned non-JSON output.",
+      "entry_id": "dae80aea-8bb6-407f-b048-9e7848513c95",
+      "session_id": "e89c6093-1934-486c-8fca-3dc727eb4230",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T15:28:47.050370Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.",
+      "entry_id": "3da3e32a-8dc9-49ad-9e3a-25f8d201265a",
+      "session_id": "a8435b01-78a5-4d2d-a02f-a6fd1294e9d5",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T15:32:56.337752Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.",
+      "entry_id": "8545e54f-52d5-4000-97b3-9014f98cdaa5",
+      "session_id": "b4e1b184-00b7-459e-ae30-832aced60488",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T15:40:48.691673Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.",
+      "entry_id": "bf23f8bf-dac5-46be-affc-9989fdd4ffcd",
+      "session_id": "3763dc38-2584-4483-8cf8-070884a3f50f",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T15:48:46.658645Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.",
+      "entry_id": "94521cd1-beee-452d-a39b-7fca6405c16b",
+      "session_id": "1984a069-328e-40a8-9d5f-996b037554a0",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T16:02:17.838209Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.",
+      "entry_id": "f1673de9-49ce-4d0d-85b3-f7e3c0c9893e",
+      "session_id": "7e10dd1e-fe92-463c-91f4-c545afe0b198",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T16:28:29.733951Z"
+    },
+    {
+      "content": "When a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.",
+      "entry_id": "01a79d0e-941f-4ac4-b1e5-0cc871fc5c8c",
+      "session_id": "session",
+      "stage": "distill",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T16:41:14.688596Z"
+    },
+    {
+      "content": "When synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.",
+      "entry_id": "52d788a4-12e0-4baa-894e-bf478ff69878",
+      "session_id": "session",
+      "stage": "distill",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T16:41:14.693105Z"
+    },
+    {
+      "content": "When a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "0550a965-ee01-4a38-b000-9e85e56f860c",
+      "session_id": "session",
+      "stage": "distill",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T16:41:14.696593Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "e2632749-e260-434e-9fff-898985fd2d60",
+      "session_id": "f7b0c5fa-a6e8-4d9a-b407-b47dcdd0b713",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T19:09:26.827463Z"
+    },
+    {
+      "content": "Malformed evaluator response: ```json\n{\n  \"passed\": true,\n  \"score\": 1.0,\n  \"per_criterion\": {\n    \"complete\": true,\n    \"correct\": true\n  },\n  \"critique\": \"\",\n  \"root_causes\": \"\",\n  \"suggested_fix\": \"\"\n}\n```",
+      "entry_id": "426b152f-1a7f-49cf-a1c5-cc16f04624c1",
+      "session_id": "f7b0c5fa-a6e8-4d9a-b407-b47dcdd0b713",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T19:18:45.103906Z"
+    },
+    {
+      "content": "Evaluator returned non-JSON output.",
+      "entry_id": "7e8a76ca-985e-4e21-b8e9-8018ce931a51",
+      "session_id": "f7b0c5fa-a6e8-4d9a-b407-b47dcdd0b713",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T19:18:45.108460Z"
+    },
+    {
+      "content": "Malformed evaluator response: ```json\n{\n  \"passed\": true,\n  \"score\": 1.0,\n  \"per_criterion\": {\n    \"complete\": true,\n    \"correct\": true\n  },\n  \"critique\": \"\",\n  \"root_causes\": \"\",\n  \"suggested_fix\": \"\"\n}\n```",
+      "entry_id": "47a14c96-6cb0-4239-ae09-acc3e7d1ef90",
+      "session_id": "f7b0c5fa-a6e8-4d9a-b407-b47dcdd0b713",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T19:26:25.673779Z"
+    },
+    {
+      "content": "Evaluator returned non-JSON output.",
+      "entry_id": "de87c3c6-c1a0-48b5-a4d4-7c71bbee85ab",
+      "session_id": "f7b0c5fa-a6e8-4d9a-b407-b47dcdd0b713",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T19:26:25.679092Z"
+    },
+    {
+      "content": "Malformed evaluator response: ```json\n{\n  \"passed\": true,\n  \"score\": 1.0,\n  \"per_criterion\": {\n    \"complete\": true,\n    \"correct\": true\n  },\n  \"critique\": \"\",\n  \"root_causes\": \"\",\n  \"suggested_fix\": \"\"\n}\n```",
+      "entry_id": "a478c003-7a28-437a-af97-3dbf3884b18c",
+      "session_id": "f7b0c5fa-a6e8-4d9a-b407-b47dcdd0b713",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T19:38:10.210600Z"
+    },
+    {
+      "content": "Evaluator returned non-JSON output.",
+      "entry_id": "d85dc6e7-4601-49f4-b91d-08a9b5a1984d",
+      "session_id": "f7b0c5fa-a6e8-4d9a-b407-b47dcdd0b713",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T19:38:10.218523Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "3ed4e080-9aa2-4c2f-b053-fc7e720e9f2d",
+      "session_id": "92e7f2d9-0ca8-4850-a902-af22cdccb946",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T21:09:33.672448Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "dcde5d99-5f71-45fa-abb0-233a839fab17",
+      "session_id": "861979cb-2e46-4f58-90dc-69025fb3cbca",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T22:24:12.079798Z"
+    },
+    {
+      "content": "Malformed evaluator response: ```json\n{\n  \"passed\": true,\n  \"score\": 1.0,\n  \"per_criterion\": {\n    \"complete\": true,\n    \"correct\": true\n  },\n  \"critique\": \"\",\n  \"root_causes\": \"\",\n  \"suggested_fix\": \"\"\n}\n```",
+      "entry_id": "2ac33585-c29f-4183-8f92-5140afff1484",
+      "session_id": "861979cb-2e46-4f58-90dc-69025fb3cbca",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T22:29:55.430700Z"
+    },
+    {
+      "content": "Evaluator returned non-JSON output.",
+      "entry_id": "3d865bac-7481-42a9-8160-aebdb2b7334d",
+      "session_id": "861979cb-2e46-4f58-90dc-69025fb3cbca",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T22:29:55.435572Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "70e99821-e4ec-44dd-bc54-861f584b6127",
+      "session_id": "51b38f78-5bb5-4906-99b2-b9dc267177d0",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T22:36:41.644110Z"
+    },
+    {
+      "content": "Malformed evaluator response: ```json\n{\n  \"passed\": true,\n  \"score\": 1.0,\n  \"per_criterion\": {\n    \"complete\": true,\n    \"correct\": true\n  },\n  \"critique\": \"\",\n  \"root_causes\": \"\",\n  \"suggested_fix\": \"\"\n}\n```",
+      "entry_id": "3ef49aab-1df9-4c5e-9ccd-973d70451c63",
+      "session_id": "51b38f78-5bb5-4906-99b2-b9dc267177d0",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T22:48:32.099640Z"
+    },
+    {
+      "content": "Evaluator returned non-JSON output.",
+      "entry_id": "13dd04fa-a05a-4e17-81da-dde73d1d03e5",
+      "session_id": "51b38f78-5bb5-4906-99b2-b9dc267177d0",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T22:48:32.105914Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "6c84a5e3-d5f5-4cbb-95b1-f55a43cf5109",
+      "session_id": "0b18bdd5-16ae-4f62-a11e-c2430e8b2e7e",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T22:54:05.392296Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "4fef34da-cfd9-440a-bd08-e1da41416785",
+      "session_id": "b498714a-0548-455f-9470-8f6cc29b6557",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T23:13:32.726329Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "78739029-93e5-4922-8921-b5cfb84bbd65",
+      "session_id": "f9179c35-4089-4601-a816-60a9afc2f508",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T23:32:46.899510Z"
+    },
+    {
+      "content": "Malformed evaluator response: ```json\n{\n  \"passed\": true,\n  \"score\": 1.0,\n  \"per_criterion\": {\n    \"complete\": true,\n    \"correct\": true\n  },\n  \"critique\": \"\",\n  \"root_causes\": \"\",\n  \"suggested_fix\": \"\"\n}\n```",
+      "entry_id": "32898dd1-33f8-4308-9b92-7c3b0bd78fdb",
+      "session_id": "f9179c35-4089-4601-a816-60a9afc2f508",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T23:43:22.511515Z"
+    },
+    {
+      "content": "Evaluator returned non-JSON output.",
+      "entry_id": "368d602e-e5f9-431b-a0c0-854a7a40425c",
+      "session_id": "f9179c35-4089-4601-a816-60a9afc2f508",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T23:43:22.517611Z"
+    },
+    {
+      "content": "Malformed evaluator response: ```json\n{\n  \"passed\": true,\n  \"score\": 1.0,\n  \"per_criterion\": {\n    \"complete\": true,\n    \"correct\": true\n  },\n  \"critique\": \"\",\n  \"root_causes\": \"\",\n  \"suggested_fix\": \"\"\n}\n```",
+      "entry_id": "d21403c7-4f0d-4f96-8876-4acd4e2a6a3e",
+      "session_id": "f9179c35-4089-4601-a816-60a9afc2f508",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T23:59:49.919502Z"
+    },
+    {
+      "content": "Evaluator returned non-JSON output.",
+      "entry_id": "e5f318be-b28e-4449-98ba-a7db161a6804",
+      "session_id": "f9179c35-4089-4601-a816-60a9afc2f508",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-21T23:59:49.925690Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "7c265e9a-69fb-47d4-ad8c-8effa2018514",
+      "session_id": "8de89d56-88ab-4246-9bee-b99855f14020",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T00:44:45.177812Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "ea710180-97ee-4db0-bd32-8ea3bfd7c653",
+      "session_id": "4e881335-2899-42e4-b77e-3ead6cf2bc82",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T01:41:14.538043Z"
+    },
+    {
+      "content": "Malformed evaluator response: ```json\n{\n  \"passed\": true,\n  \"score\": 1.0,\n  \"per_criterion\": {\n    \"complete\": true,\n    \"correct\": true\n  },\n  \"critique\": \"\",\n  \"root_causes\": \"\",\n  \"suggested_fix\": \"\"\n}\n```",
+      "entry_id": "4b5bb582-8c2b-4faa-8532-6acdc82d340b",
+      "session_id": "4e881335-2899-42e4-b77e-3ead6cf2bc82",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T01:52:07.010188Z"
+    },
+    {
+      "content": "Evaluator returned non-JSON output.",
+      "entry_id": "158797cc-e036-4b56-add8-0e9414c99f0b",
+      "session_id": "4e881335-2899-42e4-b77e-3ead6cf2bc82",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T01:52:07.015914Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "ce9c2e7b-79b9-4890-aff3-ff5182b762a2",
+      "session_id": "7ae6522c-e560-4d87-9025-85881a04dab7",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T01:56:35.791013Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "7c9e8d35-479f-409f-9138-4ccdcc27e690",
+      "session_id": "83f55644-46bb-466c-8a31-01e4297ece16",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T02:00:40.396938Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "4e41e2f3-1535-4023-a179-ef966183544b",
+      "session_id": "becf23ae-3659-4821-aa1f-7ae1688097d9",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T11:18:49.157905Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "837f668f-0203-46bf-a5fa-b13b29a5e7d5",
+      "session_id": "ffa56484-8928-4ff0-9561-682ca54fe2ab",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T11:25:59.266065Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "8925d8fc-fb91-497d-aa8e-781be8cadca4",
+      "session_id": "d9fb93a8-4266-408d-b6af-d90903535f8c",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T11:36:02.004193Z"
+    },
+    {
+      "content": "Malformed evaluator response: ",
+      "entry_id": "856f874b-3bff-4c30-b4c8-e67f94f3b11d",
+      "session_id": "d9fb93a8-4266-408d-b6af-d90903535f8c",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T11:42:22.661628Z"
+    },
+    {
+      "content": "Evaluator call failed: BadRequestResponseError.",
+      "entry_id": "c3e3d962-4e3b-4814-87ee-11f13d175610",
+      "session_id": "d9fb93a8-4266-408d-b6af-d90903535f8c",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T11:42:22.667998Z"
+    },
+    {
+      "content": "Malformed evaluator response: ",
+      "entry_id": "ddf299ff-e061-460b-87c6-a3937cea4d2d",
+      "session_id": "d9fb93a8-4266-408d-b6af-d90903535f8c",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T11:48:34.448628Z"
+    },
+    {
+      "content": "Evaluator call failed: BadRequestResponseError.",
+      "entry_id": "ace59ef1-fc12-4fd6-8736-0d4ef0142972",
+      "session_id": "d9fb93a8-4266-408d-b6af-d90903535f8c",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T11:48:34.457093Z"
+    },
+    {
+      "content": "Malformed evaluator response: ",
+      "entry_id": "c6479501-f789-4424-9a9d-9a5fbf0765a3",
+      "session_id": "d9fb93a8-4266-408d-b6af-d90903535f8c",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T11:56:10.690906Z"
+    },
+    {
+      "content": "Evaluator call failed: BadRequestResponseError.",
+      "entry_id": "e89308cc-16ec-40f4-9bd0-87efd108e735",
+      "session_id": "d9fb93a8-4266-408d-b6af-d90903535f8c",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T11:56:10.697640Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "15407284-c03a-45cf-a04b-792169088039",
+      "session_id": "98e47a7d-4a02-4482-86f7-cbcb904e4adf",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T17:58:11.818246Z"
+    },
+    {
+      "content": "Malformed evaluator response: ",
+      "entry_id": "4544a993-7727-4228-8eb9-52a4a0dadd6a",
+      "session_id": "98e47a7d-4a02-4482-86f7-cbcb904e4adf",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T18:07:36.597809Z"
+    },
+    {
+      "content": "Evaluator call failed: BadRequestResponseError.",
+      "entry_id": "bea8bbe6-ec43-4b4b-804c-b67bb20290e5",
+      "session_id": "98e47a7d-4a02-4482-86f7-cbcb904e4adf",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T18:07:36.606915Z"
+    },
+    {
+      "content": "Malformed evaluator response: ",
+      "entry_id": "3e8d9d66-a60c-4aff-a4d7-9d23656c0cba",
+      "session_id": "98e47a7d-4a02-4482-86f7-cbcb904e4adf",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T18:13:06.714814Z"
+    },
+    {
+      "content": "Evaluator call failed: BadRequestResponseError.",
+      "entry_id": "7af30f96-5fed-4f39-b388-ca412b4320f0",
+      "session_id": "98e47a7d-4a02-4482-86f7-cbcb904e4adf",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T18:13:06.721336Z"
+    },
+    {
+      "content": "Malformed evaluator response: ",
+      "entry_id": "df5e9d02-a786-42ec-89c6-74bf14be968f",
+      "session_id": "98e47a7d-4a02-4482-86f7-cbcb904e4adf",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T18:19:16.836770Z"
+    },
+    {
+      "content": "Evaluator call failed: BadRequestResponseError.",
+      "entry_id": "a19a6503-ec1e-4a06-822d-b6aa6ab1b108",
+      "session_id": "98e47a7d-4a02-4482-86f7-cbcb904e4adf",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T18:19:16.843210Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "a15722f3-2e36-47f9-87e2-bbddb21f2f4a",
+      "session_id": "56767a4b-5da4-41dc-b621-099ac276e673",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T20:36:47.183965Z"
+    },
+    {
+      "content": "Malformed evaluator response: ",
+      "entry_id": "2a4fef4c-4a47-4571-82bb-e1ca2af038fb",
+      "session_id": "56767a4b-5da4-41dc-b621-099ac276e673",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T20:52:29.682999Z"
+    },
+    {
+      "content": "Evaluator call failed: BadRequestResponseError.",
+      "entry_id": "c24fdbec-94c8-4892-9874-6285756ce1c0",
+      "session_id": "56767a4b-5da4-41dc-b621-099ac276e673",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T20:52:29.688810Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.",
+      "entry_id": "c0b6b41f-d01c-40cc-a2fa-9741116d365b",
+      "session_id": "bc294e6f-f0a1-4f25-924b-99e89c8e727c",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T21:17:34.833611Z"
+    },
+    {
+      "content": "Base every claim on the provided search results or attachments and include explicit citations.",
+      "entry_id": "d2f05322-2bc1-4d08-a81a-4ce322940a86",
+      "session_id": "session",
+      "stage": "distill",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T21:28:41.877380Z"
+    },
+    {
+      "content": "Organize the answer into logical sections (e.g., background, analysis, implications) to improve readability and scholarly tone.",
+      "entry_id": "39b0b227-92e1-40bb-ba19-e5461b9e91ed",
+      "session_id": "session",
+      "stage": "distill",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T21:28:41.883430Z"
+    },
+    {
+      "content": "When sources disagree, acknowledge the discrepancy and present the differing viewpoints without asserting unverified conclusions.",
+      "entry_id": "a88f86f7-4d1e-487a-8f8a-2408eca60f54",
+      "session_id": "session",
+      "stage": "distill",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T21:28:41.888933Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.\nBase every claim on the provided search results or attachments and include explicit citations.\nOrganize the answer into logical sections (e.g., background, analysis, implications) to improve readability and scholarly tone.\nWhen sources disagree, acknowledge the discrepancy and present the differing viewpoints without asserting unverified conclusions.",
+      "entry_id": "0bd03087-2833-43b3-b6f4-76d4ad5ffb26",
+      "session_id": "df92f4a0-db09-4c4d-a56c-801f8715cba4",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T21:42:01.908525Z"
+    },
+    {
+      "content": "Separate reasoning from the final JSON by placing the marker \"---\\nJSON OUTPUT:\" on its own line before the JSON object.",
+      "entry_id": "621f3657-983f-4647-8874-fffbc52e63a3",
+      "session_id": "session",
+      "stage": "distill",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T21:45:01.743577Z"
+    },
+    {
+      "content": "Ensure the JSON object conforms exactly to the required schema and contains no additional text or markdown after it.",
+      "entry_id": "472e805f-bf41-41ee-8531-81d5734a051d",
+      "session_id": "session",
+      "stage": "distill",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T21:45:01.751372Z"
+    },
+    {
+      "content": "Keep any explanatory prose brief and before the marker, reserving the JSON for the structured answer.",
+      "entry_id": "05eb7f58-a94b-4c6f-8849-b17565e7b48a",
+      "session_id": "session",
+      "stage": "distill",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T21:45:01.757623Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.\nBase every claim on the provided search results or attachments and include explicit citations.\nOrganize the answer into logical sections (e.g., background, analysis, implications) to improve readability and scholarly tone.\nWhen sources disagree, acknowledge the discrepancy and present the differing viewpoints without asserting unverified conclusions.\nSeparate reasoning from the final JSON by placing the marker \"---\\nJSON OUTPUT:\" on its own line before the JSON object.\nEnsure the JSON object conforms exactly to the required schema and contains no additional text or markdown after it.\nKeep any explanatory prose brief and before the marker, reserving the JSON for the structured answer.",
+      "entry_id": "7aa938a2-92a9-4478-aebd-d487660af3b2",
+      "session_id": "3faee1ac-2932-49fb-869f-72caf4187ecc",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T21:51:49.804020Z"
+    },
+    {
+      "content": "The submitted output is a research\u2011grade synthesis plan rather than the requested explanation. It outlines how to gather sources and structure an answer but does not actually explain non\u2011human intelligence modification of humanity, hybrids, the flood, or a messianic figure linked to Seth and fathered by non\u2011human intelligence. Consequently, the answer does not satisfy the task and lacks the substantive content needed for correctness.",
+      "entry_id": "7b580e67-ef50-4bb5-81ec-d3e481198deb",
+      "session_id": "3faee1ac-2932-49fb-869f-72caf4187ecc",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T21:59:48.113724Z"
+    },
+    {
+      "content": "The author interpreted the task as a request to design a research plan instead of providing the synthesized explanation itself. This led to delivering a meta\u2011level outline rather than the content answer.",
+      "entry_id": "b29370dd-a022-4b01-9d93-ed2094de70cc",
+      "session_id": "3faee1ac-2932-49fb-869f-72caf4187ecc",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T21:59:48.120895Z"
+    },
+    {
+      "content": "Provide the answer content directly; do not output meta\u2011planning or synthesis outlines unless the prompt explicitly requests them.",
+      "entry_id": "25a2036e-fb7a-4ecb-93b6-17863de11d2d",
+      "session_id": "session",
+      "stage": "distill",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T22:00:09.035591Z"
+    },
+    {
+      "content": "Structure the response with brief plain\u2011prose reasoning, followed by a line containing exactly \"---\\nJSON OUTPUT:\" and then a single, parsable JSON object with no additional text after the JSON.",
+      "entry_id": "2cdaf85f-4c98-49ad-a714-7f61d0a12b91",
+      "session_id": "session",
+      "stage": "distill",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T22:00:09.041109Z"
+    },
+    {
+      "content": "Ensure the JSON object conforms to the expected schema (e.g., required field names) and is valid JSON that can be parsed by json.loads.",
+      "entry_id": "d99e995d-bdc6-4956-a9ff-c56580f201aa",
+      "session_id": "session",
+      "stage": "distill",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T22:00:09.046746Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.\nBase every claim on the provided search results or attachments and include explicit citations.\nOrganize the answer into logical sections (e.g., background, analysis, implications) to improve readability and scholarly tone.\nWhen sources disagree, acknowledge the discrepancy and present the differing viewpoints without asserting unverified conclusions.\nSeparate reasoning from the final JSON by placing the marker \"---\\nJSON OUTPUT:\" on its own line before the JSON object.\nEnsure the JSON object conforms exactly to the required schema and contains no additional text or markdown after it.\nKeep any explanatory prose brief and before the marker, reserving the JSON for the structured answer.\nProvide the answer content directly; do not output meta\u2011planning or synthesis outlines unless the prompt explicitly requests them.\nStructure the response with brief plain\u2011prose reasoning, followed by a line containing exactly \"---\\nJSON OUTPUT:\" and then a single, parsable JSON object with no additional text after the JSON.\nEnsure the JSON object conforms to the expected schema (e.g., required field names) and is valid JSON that can be parsed by json.loads.",
+      "entry_id": "3475c721-4a0e-4fc8-965b-4e5afd171c3b",
+      "session_id": "50a5123a-36b3-47c7-85bf-fac9f6119043",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T22:08:51.799979Z"
+    },
+    {
+      "content": "Malformed evaluator response: ```json\n{\n  \"passed\": true,\n  \"score\": 1.0,\n  \"per_criterion\": {\n    \"complete\": true,\n    \"correct\": true\n  },\n  \"critique\": \"\",\n  \"root_causes\": \"\",\n  \"suggested_fix\": \"\"\n}\n```",
+      "entry_id": "35627202-3b4f-46e3-9e8f-4d0caddc99a0",
+      "session_id": "50a5123a-36b3-47c7-85bf-fac9f6119043",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T22:16:33.764045Z"
+    },
+    {
+      "content": "Evaluator returned non-JSON output.",
+      "entry_id": "ea13deff-3f42-47b6-a096-2a4c45898f82",
+      "session_id": "50a5123a-36b3-47c7-85bf-fac9f6119043",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T22:16:33.771086Z"
+    },
+    {
+      "content": "Malformed evaluator response: ```json\n{\n  \"passed\": true,\n  \"score\": 1.0,\n  \"per_criterion\": {\n    \"complete\": true,\n    \"correct\": true\n  },\n  \"critique\": \"\",\n  \"root_causes\": \"\",\n  \"suggested_fix\": \"\"\n}\n```",
+      "entry_id": "916636ba-5bbd-4fd2-a073-99850f7723a5",
+      "session_id": "50a5123a-36b3-47c7-85bf-fac9f6119043",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T22:24:02.164420Z"
+    },
+    {
+      "content": "Evaluator returned non-JSON output.",
+      "entry_id": "0d25b17c-5468-4c9b-af63-9b33a7ee29b1",
+      "session_id": "50a5123a-36b3-47c7-85bf-fac9f6119043",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T22:24:02.170796Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.\nBase every claim on the provided search results or attachments and include explicit citations.\nOrganize the answer into logical sections (e.g., background, analysis, implications) to improve readability and scholarly tone.\nWhen sources disagree, acknowledge the discrepancy and present the differing viewpoints without asserting unverified conclusions.\nSeparate reasoning from the final JSON by placing the marker \"---\\nJSON OUTPUT:\" on its own line before the JSON object.\nEnsure the JSON object conforms exactly to the required schema and contains no additional text or markdown after it.\nKeep any explanatory prose brief and before the marker, reserving the JSON for the structured answer.\nProvide the answer content directly; do not output meta\u2011planning or synthesis outlines unless the prompt explicitly requests them.\nStructure the response with brief plain\u2011prose reasoning, followed by a line containing exactly \"---\\nJSON OUTPUT:\" and then a single, parsable JSON object with no additional text after the JSON.\nEnsure the JSON object conforms to the expected schema (e.g., required field names) and is valid JSON that can be parsed by json.loads.",
+      "entry_id": "5c37a129-0d2b-4f23-b695-c1c99cb84f61",
+      "session_id": "cfe7127f-526d-462b-8df2-4631159e4f5e",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T22:59:39.140447Z"
+    },
+    {
+      "content": "Malformed evaluator response: ```json\n{\n  \"passed\": true,\n  \"score\": 1.0,\n  \"per_criterion\": {\n    \"complete\": true,\n    \"correct\": true\n  },\n  \"critique\": \"\",\n  \"root_causes\": \"\",\n  \"suggested_fix\": \"\"\n}\n```",
+      "entry_id": "aea9dc85-45fb-4a6f-abee-aa1bafa63362",
+      "session_id": "cfe7127f-526d-462b-8df2-4631159e4f5e",
+      "stage": "fail",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T23:09:24.994678Z"
+    },
+    {
+      "content": "Evaluator returned non-JSON output.",
+      "entry_id": "5e08841f-a6e4-4a73-a06a-69bd9891a870",
+      "session_id": "cfe7127f-526d-462b-8df2-4631159e4f5e",
+      "stage": "investigate",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T23:09:25.002517Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.\nBase every claim on the provided search results or attachments and include explicit citations.\nOrganize the answer into logical sections (e.g., background, analysis, implications) to improve readability and scholarly tone.\nWhen sources disagree, acknowledge the discrepancy and present the differing viewpoints without asserting unverified conclusions.\nSeparate reasoning from the final JSON by placing the marker \"---\\nJSON OUTPUT:\" on its own line before the JSON object.\nEnsure the JSON object conforms exactly to the required schema and contains no additional text or markdown after it.\nKeep any explanatory prose brief and before the marker, reserving the JSON for the structured answer.\nProvide the answer content directly; do not output meta\u2011planning or synthesis outlines unless the prompt explicitly requests them.\nStructure the response with brief plain\u2011prose reasoning, followed by a line containing exactly \"---\\nJSON OUTPUT:\" and then a single, parsable JSON object with no additional text after the JSON.\nEnsure the JSON object conforms to the expected schema (e.g., required field names) and is valid JSON that can be parsed by json.loads.",
+      "entry_id": "9edd4621-c0e0-46ce-9fe0-606a4da68dc4",
+      "session_id": "c2e6979a-a0ae-4afa-a9b0-b93b33a3543e",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-22T23:46:23.997072Z"
+    },
+    {
+      "content": "When asked to explain a tool or service, focus on its core function, target users, and primary use cases in a single concise paragraph.\nFor technical tool explanations, mention the input it takes, the transformation it performs, and the output it provides to downstream applications.\nWhen a task specifies an exact output format (heading style, list type, count range), match that format precisely on the first attempt rather than improvising structure.\nFor planning tasks that require breaking down complex or multi-topic requests, ensure each sub-task is independently researchable and covers a distinct facet of the original request.\nWhen a user question bundles multiple interconnected sub-topics (e.g., lineage, flood, hybrids, messiah), structure the answer to address each component explicitly while showing the narrative thread that connects them.\nWhen synthesizing research-grade answers on topics that blend ancient texts, theology, and speculative theories, clearly distinguish between canonical/scriptural sources, apocryphal traditions (e.g., Book of Enoch), and modern interpretive frameworks.\nWhen a question references specific named figures or lineages (e.g., Seth), verify and cite the textual tradition the reference originates from before building an argument on it.\nBase every claim on the provided search results or attachments and include explicit citations.\nOrganize the answer into logical sections (e.g., background, analysis, implications) to improve readability and scholarly tone.\nWhen sources disagree, acknowledge the discrepancy and present the differing viewpoints without asserting unverified conclusions.\nSeparate reasoning from the final JSON by placing the marker \"---\\nJSON OUTPUT:\" on its own line before the JSON object.\nEnsure the JSON object conforms exactly to the required schema and contains no additional text or markdown after it.\nKeep any explanatory prose brief and before the marker, reserving the JSON for the structured answer.\nProvide the answer content directly; do not output meta\u2011planning or synthesis outlines unless the prompt explicitly requests them.\nStructure the response with brief plain\u2011prose reasoning, followed by a line containing exactly \"---\\nJSON OUTPUT:\" and then a single, parsable JSON object with no additional text after the JSON.\nEnsure the JSON object conforms to the expected schema (e.g., required field names) and is valid JSON that can be parsed by json.loads.",
+      "entry_id": "1f28f605-d88e-4d9f-a742-0e60e2c3eeec",
+      "session_id": "710b906f-7142-44b7-9f19-d7def9d384de",
+      "stage": "consult",
+      "task_hint": "Mode: synthesize a research-grade answer using search and attachments.\n\n# User Q",
+      "timestamp": "2026-06-23T11:03:42.712776Z"
+    }
+  ],
+  "schema_version": "1.0"
+}

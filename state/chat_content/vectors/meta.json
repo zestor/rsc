@@ -1,0 +1,10 @@
+{
+  "vocabulary_size": 6310,
+  "chunk_count": 79,
+  "max_features": 262144,
+  "ngram_range": [
+    1,
+    2
+  ],
+  "last_updated": "2026-06-22T18:46:07Z"
+}

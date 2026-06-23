@@ -1,0 +1,21 @@
+{
+  "chunk": {
+    "char_count": 810,
+    "chunk_id": "large-0003",
+    "filename": "large.md",
+    "index": 3,
+    "markdown": {
+      "chars": 810,
+      "line_count": 3,
+      "preview": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word ...",
+      "sha256": "968a27b7e2289f05cc9549d198dfaf268c444f0acf8f824a269008e19ef9aa18",
+      "text": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word\n\n# Section"
+    },
+    "total": 6,
+    "word_count": 162
+  },
+  "result_chars": 8,
+  "score": 1.0,
+  "status": "passed",
+  "turns_used": 1
+}

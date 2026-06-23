@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>{{ROLE_LABEL}} — Automated Sourcing Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" />
+<link rel="stylesheet" href="tokens.css?v={{ASSET_HASH}}" />
+<link rel="stylesheet" href="recruiting_review_app.css?v={{ASSET_HASH}}" />
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-left">
+      <h1 class="role-label">{{ROLE_LABEL}}</h1>
+      <p class="app-subtitle">{{ROLE_BRIEF}}</p>
+    </div>
+    <div class="topbar-right">
+      <span class="latest-run" id="latest-run" title="Latest sourcing run">{{LATEST_RUN_TEXT}}</span>
+      <a id="show-workflow-data" class="btn-ghost" href="#ops-section" title="Scroll to workflow status, hired seeds, general feedback, themes, and Ashby exclusions">Show workflow data</a>
+      <button id="theme-toggle" class="btn-ghost" type="button" aria-label="Toggle theme">Theme</button>
+    </div>
+  </div>
+</header>
+
+<main class="layout">
+  <section class="feed">
+    <div class="feed-controls">
+      <input id="search" class="input" type="search" placeholder="Filter candidates…" />
+      <select id="review-filter" class="input" aria-label="Filter by review state">
+        <option value="all">All</option>
+        <option value="unreviewed">Unreviewed</option>
+        <option value="yes">Yes</option>
+        <option value="maybe">Maybe</option>
+        <option value="no">No</option>
+      </select>
+      <label class="group-by" aria-label="Group candidates by">
+        <span class="group-by-label">Group by</span>
+        <select id="group-by" class="input">
+          <option value="review_state">Review state</option>
+          <option value="found_run">Found run</option>
+          <option value="none">None</option>
+        </select>
+      </label>
+    </div>
+    <ol id="candidate-list" class="candidate-list" aria-label="Candidates"></ol>
+  </section>
+
+  <section class="detail" aria-live="polite">
+    <div id="detail-empty" class="detail-empty {{INITIAL_EMPTY_CLASS}}">Select a candidate to see details.</div>
+    <article id="detail" class="detail-card {{INITIAL_DETAIL_CLASS}}">
+      <header class="detail-head">
+        <div class="detail-head-text">
+          <h2 id="d-name"></h2>
+          <p id="d-headline" class="muted"></p>
+          <p id="d-current" class="muted"></p>
+          <div class="detail-links" id="detail-links">
+            <a id="d-profile-top" class="btn-profile" target="_blank" rel="noopener noreferrer">
+              <span class="btn-profile-icon" aria-hidden="true">in</span>
+              <span class="btn-profile-label">LinkedIn</span>
+            </a>
+            <span id="d-links" class="link-row"></span>
+          </div>
+        </div>
+        <div class="detail-score">
+          <span id="d-score-ring" class="score-ring score-ring-detail" title="Predicted rating (out of 10)" aria-label="Score"></span>
+          <span class="predicted" id="d-predicted"></span>
+        </div>
+      </header>
+
+      <section class="review-actions-bar" aria-label="Review decision">
+        <div class="review-actions" role="group">
+          <button data-decision="yes" class="btn btn-review btn-review-yes" type="button">Yes</button>
+          <button data-decision="maybe" class="btn btn-review btn-review-maybe" type="button">Maybe</button>
+          <button data-decision="no" class="btn btn-review btn-review-no" type="button">No</button>
+        </div>
+        <div class="save-status" id="review-save-status" role="status" aria-live="polite"></div>
+      </section>
+
+      <div class="detail-meta">
+        <span id="d-recency" class="tag"></span>
+        <span id="d-company-tier" class="tag"></span>
+        <span id="d-tenure" class="tag"></span>
+        <span id="d-internal" class="tag"></span>
+        <span id="d-ashby" class="tag"></span>
+      </div>
+
+      <div class="detail-section">
+        <h3>Main reason for fit</h3>
+        <p id="d-reason"></p>
+      </div>
+      <div class="detail-section">
+        <h3>Main concern</h3>
+        <p id="d-concern"></p>
+      </div>
+      <div class="detail-section">
+        <h3>Evidence</h3>
+        <ul id="d-evidence"></ul>
+      </div>
+      <div class="detail-section">
+        <h3>Concerns</h3>
+        <ul id="d-concerns"></ul>
+      </div>
+
+      <div class="detail-section feedback-block">
+        <h3>Feedback</h3>
+        <label class="free-text-label">
+          <span>Notes</span>
+          <textarea id="d-free-text" rows="3" placeholder="Optional notes for this candidate…"></textarea>
+        </label>
+        <div class="save-row">
+          <button id="save-next" class="btn btn-primary" type="button">Save &amp; next</button>
+          <span id="save-status" class="save-status" role="status" aria-live="polite"></span>
+          <span class="kbd-hint">J/K next/prev · Enter save &amp; next</span>
+        </div>
+      </div>
+
+    </article>
+  </section>
+</main>
+
+<section id="ops-section" class="ops-section" aria-label="Operational context">
+  <div class="ops-card workflow-status">
+    <h2>Workflow status</h2>
+    <dl>
+      <dt>Scheduled</dt><dd id="ws-scheduled">—</dd>
+      <dt>Cadence</dt><dd id="ws-cadence">—</dd>
+      <dt>Last run</dt><dd id="ws-last-run">—</dd>
+      <dt>Next run</dt><dd id="ws-next-run">—</dd>
+      <dt>Timezone</dt><dd id="ws-timezone">—</dd>
+      <dt>Batch size</dt><dd id="ws-batch">—</dd>
+      <dt>Notifications</dt><dd id="ws-channels">—</dd>
+    </dl>
+    <p id="ws-status-text" class="ws-status-text"></p>
+    <div class="ws-links">
+      <a id="ws-sheet" class="btn-link" target="_blank" rel="noopener">Sheet export</a>
+      <a id="ws-review-url" class="btn-link" target="_blank" rel="noopener">Review URL</a>
+    </div>
+  </div>
+  <div class="ops-card hired-seeds">
+    <h2>Hired seed profiles</h2>
+    <ul id="seed-list" class="seed-list"></ul>
+  </div>
+  <div class="ops-card ops-card-general">
+    <h2>General feedback</h2>
+    <p class="ops-card-help">Review-wide feedback the sourcing prompt reads on the next run. Edits here are local to this static preview; the workflow writes the canonical copy back to SQLite.</p>
+    <textarea id="general-feedback-text" class="general-feedback-text" rows="6" placeholder="No general feedback recorded yet."></textarea>
+    <div class="ops-card-actions">
+      <button id="general-feedback-save" class="btn btn-secondary" type="button">Save general feedback</button>
+      <span id="general-feedback-status" class="save-status" role="status" aria-live="polite"></span>
+    </div>
+    <div class="ops-card-meta" id="general-feedback-meta"></div>
+  </div>
+  <div class="ops-card">
+    <h2>Feedback themes</h2>
+    <ul id="theme-list" class="theme-list plain-list"></ul>
+  </div>
+  <div class="ops-card">
+    <h2>Ashby exclusions</h2>
+    <ul id="exclusion-list" class="exclusion-list plain-list"></ul>
+  </div>
+</section>
+
+<script id="review-bundle" type="application/json">{{BUNDLE_JSON}}</script>
+<script src="recruiting_review_app.js?v={{ASSET_HASH}}" defer></script>
+</body>
+</html>
